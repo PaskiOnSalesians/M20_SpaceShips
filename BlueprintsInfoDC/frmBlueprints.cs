@@ -23,11 +23,11 @@ namespace BlueprintsInfoDC
         List<string> TextDetails = new List<string>();
         List<string> ImageDetails = new List<string>();
 
-        string ResourcesPath = "\\\\Mac\\Home\\Desktop\\BlueprintsInfoDC\\BlueprintsInfoDC\\Resources\\StarKiller\\";
+        string ResourcesPath = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\StarKiller\\";
 
         private void frmBlueprints_Load_1(object sender, EventArgs e)
         {
-            string XMLfilePath = "\\\\Mac\\Home\\Desktop\\BlueprintsInfoDC\\BlueprintsInfoDC\\Resources\\info.xml";
+            string XMLfilePath = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\info.xml";
 
             XElement blueprints = XElement.Load(XMLfilePath);
 
