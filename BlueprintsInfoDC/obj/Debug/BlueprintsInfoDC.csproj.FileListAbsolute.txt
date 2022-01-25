@@ -1,0 +1,72 @@
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe.config
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.pdb
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csprojAssemblyReference.cache
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmMain.resources
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmTechnicalInfo.resources
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.Properties.Resources.resources
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.GenerateResource.cache
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CoreCompileInputs.cache
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.pdb
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\Interop.WMPLib.dll
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\Interop.WMPLib.dll
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.ResolveComReference.cache
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmBlueprints.resources
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CopyComplete
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\DOATransparentLabel.dll
+C:\Users\josep\source\repos\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\DOATransparentLabel.pdb
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe.config
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.pdb
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\bin\Debug\Interop.WMPLib.dll
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csprojAssemblyReference.cache
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\Interop.WMPLib.dll
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.ResolveComReference.cache
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmBlueprints.resources
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmMain.resources
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmTechnicalInfo.resources
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.Properties.Resources.resources
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.GenerateResource.cache
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CoreCompileInputs.cache
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CopyComplete
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\Downloads\BlueprintsInfoDC-20211126T130907Z-001\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.pdb
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe.config
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.pdb
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\Interop.WMPLib.dll
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csprojAssemblyReference.cache
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\Interop.WMPLib.dll
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.ResolveComReference.cache
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmBlueprints.resources
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmMain.resources
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.Properties.Resources.resources
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.GenerateResource.cache
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CoreCompileInputs.cache
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CopyComplete
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.exe
+C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.pdb
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe.config
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.exe
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\BlueprintsInfoDC.pdb
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\Interop.WMPLib.dll
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\bin\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\Interop.WMPLib.dll
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\AxInterop.WMPLib.dll
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.ResolveComReference.cache
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmBlueprints.resources
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmMain.resources
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.Properties.Resources.resources
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CopyComplete
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.exe
+\\Mac\Home\Desktop\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.pdb

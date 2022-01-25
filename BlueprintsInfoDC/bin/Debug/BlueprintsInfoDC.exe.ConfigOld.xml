@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+  <system.net>
+    <mailSettings>
+      <smtp configProtectionProvider="RsaProtectedConfigurationProvider">
+        <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"
+          xmlns="http://www.w3.org/2001/04/xmlenc#">
+          <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+              <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p" />
+              <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <KeyName>Rsa Key</KeyName>
+              </KeyInfo>
+              <CipherData>
+                <CipherValue>mDhPlcQZMO/0DP6cIXVPub6k71TS6lOmaRzF2RUqd0vXnVr8nrDTGmOhHuFbPzldBbHZU9mOQhI4PtDn/VEpjqA/xvEhkdHJGpBQ1Ym/HN1ZANkncJ/TeWeEyFRBOz/xW9/P+lxR4ikh1+00j/FFLOAVdByAS+V/nv2OFNcb6du+CHte3jhdppWzfHf1W/2ImQO3oS5ehs7Jc6zConWfgPsD7WBM/T9Zx/ZilbXXxLiGV4nnkuW9s8zmz1+vRW9KWl1JxXilF1V3H93v92rDc7CbEqfIpczqhfuLMCB6/JM/YOd6Fpil/0t4KoOxnDvseYr4nBeO0DrVqou3dHRbMA==</CipherValue>
+              </CipherData>
+            </EncryptedKey>
+          </KeyInfo>
+          <CipherData>
+            <CipherValue>GEKGezIEoo0l6OlDWoSO4xqEHb7Rt6pMrjQx1hf+E8OzVQjuXCCUdh1A2BUbOdjn7ejYKCToXavSfvNvP+jSNunMBbMXUu3zAd57rxzAHMyqavPGiWyH8kzLk/+h7eNTGK2It69c3yjhBFXmgqvQyW9MO+4yLjm7pv8/eZFDubIcAhABkK4A/RjfVMfzJCSSfjXbdZANHOp7vLOoFKt85YbyDmOH1vM6eCtDjIPeZ6fq1ndgZ8HRi3L5Guu+NJz+lS12imdR8lcAcN4M746218k9PACb+q/pDL6AeKYPljEmv9Yj/Jl95noWvZ3HI3f3/XmCpMi9DCr3ae3iNTVwbObneyY5/rauVMOq6B0HeLhVGxmfcLdk889eq9PBElqj</CipherValue>
+          </CipherData>
+        </EncryptedData>
+      </smtp>
+    </mailSettings>
+  </system.net>
+</configuration>
