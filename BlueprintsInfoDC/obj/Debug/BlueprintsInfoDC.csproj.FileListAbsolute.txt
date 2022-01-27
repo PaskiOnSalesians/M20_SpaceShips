@@ -87,3 +87,4 @@ C:\Users\josep\source\repos\Codi S2AM\BlueprintsInfoDC\BlueprintsInfoDC\obj\Debu
 \\Mac\Home\Desktop\GitHub\M20-SpaceShips\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.csproj.CopyComplete
 \\Mac\Home\Desktop\GitHub\M20-SpaceShips\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.exe
 \\Mac\Home\Desktop\GitHub\M20-SpaceShips\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.pdb
+\\Mac\Home\Desktop\GitHub\M20-SpaceShips\BlueprintsInfoDC\obj\Debug\BlueprintsInfoDC.frmSpaceship.resources

@@ -27,5 +27,11 @@ namespace BlueprintsInfoDC
             frmBlueprints frm = new frmBlueprints();
             frm.Show();
         }
+
+        private void btnSpaceship_Click(object sender, EventArgs e)
+        {
+            frmSpaceship frm = new frmSpaceship();
+            frm.Show();
+        }
     }
 }
