@@ -17,16 +17,23 @@ namespace BlueprintsInfoDC
         {
             InitializeComponent();
         }
+        string XMLfilePath = "..\\..\\Resources\\info.xml";
 
+        string resourcesPath = "..\\..\\Resources\\";
+
+
+        List<int> SpaceshipId = new List<int>();
         List<string> SpaceshipInfo = new List<string>();
-        List<string> SpaceshipIcon = new List<string>();
-
+        List<string> SpaceshipPicture = new List<string>();
 
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
-            string XMLfilePath = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\info.xml";
-
             XElement blueprints = XElement.Load(XMLfilePath);
+
+            foreach (XElement n in blueprints.Descendants("idInfoDetail"))
+            {
+                SpaceshipId.Add(Int16.Parse(n.Value));
+            }
 
             foreach (XElement n in blueprints.Descendants("textOption"))
             {
@@ -38,17 +45,19 @@ namespace BlueprintsInfoDC
                 SpaceshipInfo.Add(n.Value);
             }
 
-            foreach (XElement n in blueprints.Descendants("icon"))
+            foreach (XElement n in blueprints.Descendants("GeneralView"))
             {
-                SpaceshipIcon.Add(n.Value);
+                SpaceshipPicture.Add(n.Value);
             }
         }
 
         private void cmbNaus_SelectedIndexChanged(object sender, EventArgs e)
         {
             int index = cmbNaus.SelectedIndex;
+
             lblInfo.Text = SpaceshipInfo[index];
-            picSpaceship.ImageLocation = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\" + cmbNaus.Text + "\\" + SpaceshipIcon;
+
+            picBlueprints.ImageLocation = resourcesPath + "\\" + cmbNaus.Text + "\\" + SpaceshipPicture[index];
         }
     }
 }
