@@ -39,6 +39,7 @@ namespace BlueprintsInfoDC
             this.picSpace4 = new System.Windows.Forms.PictureBox();
             this.picSpace3 = new System.Windows.Forms.PictureBox();
             this.picSpace5 = new System.Windows.Forms.PictureBox();
+            this.lblSpaceshipName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picSpaceMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBlueprints)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpace1)).BeginInit();
@@ -62,7 +63,7 @@ namespace BlueprintsInfoDC
             this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.Location = new System.Drawing.Point(1713, 22);
+            this.lblTitle.Location = new System.Drawing.Point(1611, 22);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(680, 51);
             this.lblTitle.TabIndex = 1;
@@ -71,7 +72,7 @@ namespace BlueprintsInfoDC
             // picSpaceMain
             // 
             this.picSpaceMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picSpaceMain.Location = new System.Drawing.Point(1770, 96);
+            this.picSpaceMain.Location = new System.Drawing.Point(1668, 96);
             this.picSpaceMain.Name = "picSpaceMain";
             this.picSpaceMain.Size = new System.Drawing.Size(600, 600);
             this.picSpaceMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,48 +97,68 @@ namespace BlueprintsInfoDC
             // 
             // picSpace1
             // 
-            this.picSpace1.Location = new System.Drawing.Point(1554, 741);
+            this.picSpace1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picSpace1.Location = new System.Drawing.Point(1452, 741);
             this.picSpace1.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace1.Name = "picSpace1";
             this.picSpace1.Size = new System.Drawing.Size(200, 200);
+            this.picSpace1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpace1.TabIndex = 5;
             this.picSpace1.TabStop = false;
             // 
             // picSpace2
             // 
-            this.picSpace2.Location = new System.Drawing.Point(1764, 741);
+            this.picSpace2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picSpace2.Location = new System.Drawing.Point(1662, 741);
             this.picSpace2.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace2.Name = "picSpace2";
             this.picSpace2.Size = new System.Drawing.Size(200, 200);
+            this.picSpace2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpace2.TabIndex = 6;
             this.picSpace2.TabStop = false;
             // 
             // picSpace4
             // 
-            this.picSpace4.Location = new System.Drawing.Point(2184, 741);
+            this.picSpace4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picSpace4.Location = new System.Drawing.Point(2082, 741);
             this.picSpace4.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace4.Name = "picSpace4";
             this.picSpace4.Size = new System.Drawing.Size(200, 200);
+            this.picSpace4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpace4.TabIndex = 7;
             this.picSpace4.TabStop = false;
             // 
             // picSpace3
             // 
-            this.picSpace3.Location = new System.Drawing.Point(1974, 741);
+            this.picSpace3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picSpace3.Location = new System.Drawing.Point(1872, 741);
             this.picSpace3.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace3.Name = "picSpace3";
             this.picSpace3.Size = new System.Drawing.Size(200, 200);
+            this.picSpace3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpace3.TabIndex = 8;
             this.picSpace3.TabStop = false;
             // 
             // picSpace5
             // 
-            this.picSpace5.Location = new System.Drawing.Point(2394, 741);
+            this.picSpace5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picSpace5.Location = new System.Drawing.Point(2292, 741);
             this.picSpace5.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace5.Name = "picSpace5";
             this.picSpace5.Size = new System.Drawing.Size(200, 200);
+            this.picSpace5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpace5.TabIndex = 9;
             this.picSpace5.TabStop = false;
+            // 
+            // lblSpaceshipName
+            // 
+            this.lblSpaceshipName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSpaceshipName.AutoSize = true;
+            this.lblSpaceshipName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
+            this.lblSpaceshipName.Location = new System.Drawing.Point(1713, 994);
+            this.lblSpaceshipName.Name = "lblSpaceshipName";
+            this.lblSpaceshipName.Size = new System.Drawing.Size(0, 51);
+            this.lblSpaceshipName.TabIndex = 10;
             // 
             // frmSpaceship
             // 
@@ -145,6 +166,7 @@ namespace BlueprintsInfoDC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(2624, 1166);
+            this.Controls.Add(this.lblSpaceshipName);
             this.Controls.Add(this.picSpace5);
             this.Controls.Add(this.picSpace3);
             this.Controls.Add(this.picSpace4);
@@ -185,5 +207,6 @@ namespace BlueprintsInfoDC
         private System.Windows.Forms.PictureBox picSpace4;
         private System.Windows.Forms.PictureBox picSpace3;
         private System.Windows.Forms.PictureBox picSpace5;
+        private System.Windows.Forms.Label lblSpaceshipName;
     }
 }

@@ -26,6 +26,12 @@ namespace BlueprintsInfoDC
         List<string> SpaceshipInfo = new List<string>();
         List<string> SpaceshipBp = new List<string>();
 
+        List<string> FrontView = new List<string>();
+        List<string> SideView = new List<string>();
+        List<string> TopView = new List<string>();
+        List<string> RearView = new List<string>();
+        List<string> View360 = new List<string>();
+
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
             XElement blueprints = XElement.Load(XMLfilePath);
@@ -49,6 +55,31 @@ namespace BlueprintsInfoDC
             {
                 SpaceshipBp.Add(n.Value);
             }
+
+            foreach (XElement n in blueprints.Descendants("FrontView"))
+            {
+                FrontView.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("SideView"))
+            {
+                SideView.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("TopView"))
+            {
+                TopView.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("RearView"))
+            {
+                RearView.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("View360"))
+            {
+                View360.Add(n.Value);
+            }
         }
 
         private void cmbNaus_SelectedIndexChanged(object sender, EventArgs e)
@@ -56,9 +87,18 @@ namespace BlueprintsInfoDC
             int index = cmbNaus.SelectedIndex;
             int Idindex = SpaceshipId[index];
 
-            lblInfo.Text = SpaceshipInfo[Idindex];
+            string imagepath = resourcesPath + "\\" + cmbNaus.Text + "\\";
 
-            picBlueprints.ImageLocation = resourcesPath + "\\" + cmbNaus.Text + "\\" + SpaceshipBp[Idindex];
+            lblInfo.Text = SpaceshipInfo[Idindex];
+            lblSpaceshipName.Text = cmbNaus.Text;
+
+            picBlueprints.ImageLocation = imagepath + SpaceshipBp[Idindex];
+
+            picSpace1.ImageLocation = imagepath + FrontView[Idindex];
+            picSpace2.ImageLocation = imagepath + SideView[Idindex];
+            picSpace3.ImageLocation = imagepath + TopView[Idindex];
+            picSpace4.ImageLocation = imagepath + RearView[Idindex];
+            picSpace4.ImageLocation = imagepath + View360[Idindex];
         }
     }
 }
