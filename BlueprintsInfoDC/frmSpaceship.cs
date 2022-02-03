@@ -24,7 +24,7 @@ namespace BlueprintsInfoDC
 
         List<int> SpaceshipId = new List<int>();
         List<string> SpaceshipInfo = new List<string>();
-        List<string> SpaceshipPicture = new List<string>();
+        List<string> SpaceshipBp = new List<string>();
 
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
@@ -45,19 +45,20 @@ namespace BlueprintsInfoDC
                 SpaceshipInfo.Add(n.Value);
             }
 
-            foreach (XElement n in blueprints.Descendants("GeneralView"))
+            foreach (XElement n in blueprints.Descendants("Blueprint"))
             {
-                SpaceshipPicture.Add(n.Value);
+                SpaceshipBp.Add(n.Value);
             }
         }
 
         private void cmbNaus_SelectedIndexChanged(object sender, EventArgs e)
         {
             int index = cmbNaus.SelectedIndex;
+            int Idindex = SpaceshipId[index];
 
-            lblInfo.Text = SpaceshipInfo[index];
+            lblInfo.Text = SpaceshipInfo[Idindex];
 
-            picBlueprints.ImageLocation = resourcesPath + "\\" + cmbNaus.Text + "\\" + SpaceshipPicture[index];
+            picBlueprints.ImageLocation = resourcesPath + "\\" + cmbNaus.Text + "\\" + SpaceshipBp[Idindex];
         }
     }
 }

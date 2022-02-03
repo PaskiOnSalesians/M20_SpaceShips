@@ -62,7 +62,7 @@ namespace BlueprintsInfoDC
             this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.Location = new System.Drawing.Point(1549, 60);
+            this.lblTitle.Location = new System.Drawing.Point(1713, 22);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(680, 51);
             this.lblTitle.TabIndex = 1;
@@ -71,9 +71,9 @@ namespace BlueprintsInfoDC
             // picSpaceMain
             // 
             this.picSpaceMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picSpaceMain.Location = new System.Drawing.Point(1628, 142);
+            this.picSpaceMain.Location = new System.Drawing.Point(1770, 96);
             this.picSpaceMain.Name = "picSpaceMain";
-            this.picSpaceMain.Size = new System.Drawing.Size(514, 500);
+            this.picSpaceMain.Size = new System.Drawing.Size(600, 600);
             this.picSpaceMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSpaceMain.TabIndex = 2;
             this.picSpaceMain.TabStop = false;
@@ -87,50 +87,55 @@ namespace BlueprintsInfoDC
             // 
             // picBlueprints
             // 
-            this.picBlueprints.Location = new System.Drawing.Point(568, 142);
+            this.picBlueprints.Location = new System.Drawing.Point(648, 96);
             this.picBlueprints.Name = "picBlueprints";
-            this.picBlueprints.Size = new System.Drawing.Size(500, 500);
+            this.picBlueprints.Size = new System.Drawing.Size(600, 600);
             this.picBlueprints.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBlueprints.TabIndex = 4;
             this.picBlueprints.TabStop = false;
             // 
             // picSpace1
             // 
-            this.picSpace1.Location = new System.Drawing.Point(1452, 709);
+            this.picSpace1.Location = new System.Drawing.Point(1554, 741);
+            this.picSpace1.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace1.Name = "picSpace1";
-            this.picSpace1.Size = new System.Drawing.Size(156, 160);
+            this.picSpace1.Size = new System.Drawing.Size(200, 200);
             this.picSpace1.TabIndex = 5;
             this.picSpace1.TabStop = false;
             // 
             // picSpace2
             // 
-            this.picSpace2.Location = new System.Drawing.Point(1628, 709);
+            this.picSpace2.Location = new System.Drawing.Point(1764, 741);
+            this.picSpace2.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace2.Name = "picSpace2";
-            this.picSpace2.Size = new System.Drawing.Size(156, 160);
+            this.picSpace2.Size = new System.Drawing.Size(200, 200);
             this.picSpace2.TabIndex = 6;
             this.picSpace2.TabStop = false;
             // 
             // picSpace4
             // 
-            this.picSpace4.Location = new System.Drawing.Point(1986, 709);
+            this.picSpace4.Location = new System.Drawing.Point(2184, 741);
+            this.picSpace4.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace4.Name = "picSpace4";
-            this.picSpace4.Size = new System.Drawing.Size(156, 160);
+            this.picSpace4.Size = new System.Drawing.Size(200, 200);
             this.picSpace4.TabIndex = 7;
             this.picSpace4.TabStop = false;
             // 
             // picSpace3
             // 
-            this.picSpace3.Location = new System.Drawing.Point(1804, 709);
+            this.picSpace3.Location = new System.Drawing.Point(1974, 741);
+            this.picSpace3.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace3.Name = "picSpace3";
-            this.picSpace3.Size = new System.Drawing.Size(156, 160);
+            this.picSpace3.Size = new System.Drawing.Size(200, 200);
             this.picSpace3.TabIndex = 8;
             this.picSpace3.TabStop = false;
             // 
             // picSpace5
             // 
-            this.picSpace5.Location = new System.Drawing.Point(2166, 709);
+            this.picSpace5.Location = new System.Drawing.Point(2394, 741);
+            this.picSpace5.Margin = new System.Windows.Forms.Padding(5);
             this.picSpace5.Name = "picSpace5";
-            this.picSpace5.Size = new System.Drawing.Size(156, 160);
+            this.picSpace5.Size = new System.Drawing.Size(200, 200);
             this.picSpace5.TabIndex = 9;
             this.picSpace5.TabStop = false;
             // 
@@ -139,7 +144,7 @@ namespace BlueprintsInfoDC
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(2452, 1166);
+            this.ClientSize = new System.Drawing.Size(2624, 1166);
             this.Controls.Add(this.picSpace5);
             this.Controls.Add(this.picSpace3);
             this.Controls.Add(this.picSpace4);
