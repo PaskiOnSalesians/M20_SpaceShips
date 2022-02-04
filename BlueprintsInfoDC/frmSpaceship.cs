@@ -17,9 +17,9 @@ namespace BlueprintsInfoDC
         {
             InitializeComponent();
         }
-        string XMLfilePath = "..\\..\\Resources\\info.xml";
 
-        string resourcesPath = "..\\..\\Resources\\";
+        string resourcesPath = Application.StartupPath + "\\Resources";
+
 
 
         List<int> SpaceshipId = new List<int>();
@@ -31,10 +31,12 @@ namespace BlueprintsInfoDC
         List<string> TopView = new List<string>();
         List<string> RearView = new List<string>();
         List<string> View360 = new List<string>();
+        List<string> GeneralView = new List<string>();
+
 
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
-            XElement blueprints = XElement.Load(XMLfilePath);
+            XElement blueprints = XElement.Load(resourcesPath + "\\info.xml");
 
             foreach (XElement n in blueprints.Descendants("idInfoDetail"))
             {
@@ -80,6 +82,11 @@ namespace BlueprintsInfoDC
             {
                 View360.Add(n.Value);
             }
+
+            foreach (XElement n in blueprints.Descendants("GeneralView"))
+            {
+                GeneralView.Add(n.Value);
+            }
         }
 
         private void cmbNaus_SelectedIndexChanged(object sender, EventArgs e)
@@ -94,11 +101,45 @@ namespace BlueprintsInfoDC
 
             picBlueprints.ImageLocation = imagepath + SpaceshipBp[Idindex];
 
+            picSpaceMain.ImageLocation = "";
             picSpace1.ImageLocation = imagepath + FrontView[Idindex];
             picSpace2.ImageLocation = imagepath + SideView[Idindex];
             picSpace3.ImageLocation = imagepath + TopView[Idindex];
             picSpace4.ImageLocation = imagepath + RearView[Idindex];
-            picSpace4.ImageLocation = imagepath + View360[Idindex];
+            picSpace5.ImageLocation = imagepath + View360[Idindex];
+        }
+
+        private void picSpace1_Click(object sender, EventArgs e)
+        {
+            picSpaceMain.ImageLocation = picSpace1.ImageLocation;
+        }
+
+        private void picSpace2_Click(object sender, EventArgs e)
+        {
+            picSpaceMain.ImageLocation = picSpace2.ImageLocation;
+        }
+
+        private void picSpace3_Click(object sender, EventArgs e)
+        {
+            picSpaceMain.ImageLocation = picSpace3.ImageLocation;
+        }
+
+        private void picSpace4_Click(object sender, EventArgs e)
+        {
+            picSpaceMain.ImageLocation = picSpace4.ImageLocation;
+        }
+
+        private void picSpace5_Click(object sender, EventArgs e)
+        {
+            int index = cmbNaus.SelectedIndex;
+            int Idindex = SpaceshipId[index];
+
+            string path = resourcesPath + "\\" + cmbNaus.Text + "\\" + GeneralView[Idindex];
+            pnlMedia.BringToFront();
+            picSpaceMain.ImageLocation = "";
+
+            axWMPvideo.URL = path;
+            axWMPvideo.Ctlcontrols.play();
         }
     }
 }
