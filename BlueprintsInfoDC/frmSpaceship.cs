@@ -138,7 +138,21 @@ namespace BlueprintsInfoDC
             lblInfo.Text = SpaceshipInfo[Idindex];
             lblSpaceshipName.Text = cmbNaus.Text;
 
-            //dgv_ship_data.Columns["Data"].Index;
+            DataTable table = new DataTable();
+
+            table.Columns.Add("DATA", typeof(string));
+            table.Columns.Add("VALUE", typeof(string));
+
+            table.Rows.Add("Manufacturer", Manufacturers[Idindex]);
+            table.Rows.Add("Length", Length[Idindex]);
+            table.Rows.Add("Speed", Speed[Idindex]);
+            table.Rows.Add("Hyperdrive", Hyperdrive[Idindex]);
+            table.Rows.Add("Shielding", Shielding[Idindex]);
+            table.Rows.Add("Armament", Armament[Idindex]);
+
+            dgv_ship_data.ForeColor = Color.Black;
+            dgv_ship_data.DataSource = table;
+
 
             #region ImagesLocations
             picBlueprints.ImageLocation = imagepath + SpaceshipBp[Idindex];
