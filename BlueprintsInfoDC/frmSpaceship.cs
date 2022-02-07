@@ -111,21 +111,25 @@ namespace BlueprintsInfoDC
 
         private void picSpace1_Click(object sender, EventArgs e)
         {
+            pnlImage.BringToFront();
             picSpaceMain.ImageLocation = picSpace1.ImageLocation;
         }
 
         private void picSpace2_Click(object sender, EventArgs e)
         {
+            pnlImage.BringToFront();
             picSpaceMain.ImageLocation = picSpace2.ImageLocation;
         }
 
         private void picSpace3_Click(object sender, EventArgs e)
         {
+            pnlImage.BringToFront();
             picSpaceMain.ImageLocation = picSpace3.ImageLocation;
         }
 
         private void picSpace4_Click(object sender, EventArgs e)
         {
+            pnlImage.BringToFront();
             picSpaceMain.ImageLocation = picSpace4.ImageLocation;
         }
 
@@ -139,6 +143,7 @@ namespace BlueprintsInfoDC
             picSpaceMain.ImageLocation = "";
 
             axWMPvideo.URL = path;
+            axWMPvideo.Visible = true;
             axWMPvideo.Ctlcontrols.play();
         }
     }

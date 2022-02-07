@@ -78,6 +78,7 @@ namespace BlueprintsInfoDC
             // 
             // picSpaceMain
             // 
+            this.picSpaceMain.BackColor = System.Drawing.Color.Khaki;
             this.picSpaceMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picSpaceMain.Location = new System.Drawing.Point(0, 0);
             this.picSpaceMain.Name = "picSpaceMain";
@@ -175,7 +176,7 @@ namespace BlueprintsInfoDC
             // 
             // axWMPvideo
             // 
-            this.axWMPvideo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axWMPvideo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.axWMPvideo.Enabled = true;
             this.axWMPvideo.Location = new System.Drawing.Point(0, 0);
             this.axWMPvideo.Name = "axWMPvideo";
@@ -201,7 +202,7 @@ namespace BlueprintsInfoDC
             this.pnlImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlImage.BackColor = System.Drawing.Color.Maroon;
             this.pnlImage.Controls.Add(this.picSpaceMain);
-            this.pnlImage.Location = new System.Drawing.Point(2061, 138);
+            this.pnlImage.Location = new System.Drawing.Point(1683, 138);
             this.pnlImage.Name = "pnlImage";
             this.pnlImage.Size = new System.Drawing.Size(600, 600);
             this.pnlImage.TabIndex = 13;
