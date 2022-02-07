@@ -33,6 +33,13 @@ namespace BlueprintsInfoDC
         List<string> View360 = new List<string>();
         List<string> GeneralView = new List<string>();
 
+        List<string> Manufacturers = new List<string>();
+        List<string> Length = new List<string>();
+        List<string> Speed = new List<string>();
+        List<string> Hyperdrive = new List<string>();
+        List<string> Shielding = new List<string>();
+        List<string> Armament = new List<string>();
+
 
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
@@ -88,6 +95,37 @@ namespace BlueprintsInfoDC
             {
                 GeneralView.Add(n.Value);
             }
+
+            // Data
+            foreach (XElement n in blueprints.Descendants("Manufacturer"))
+            {
+                Manufacturers.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("Length"))
+            {
+                Length.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("Speed"))
+            {
+                Speed.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("Hyperdrive"))
+            {
+                Hyperdrive.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("Shielding"))
+            {
+                Shielding.Add(n.Value);
+            }
+
+            foreach (XElement n in blueprints.Descendants("Armament"))
+            {
+                Armament.Add(n.Value);
+            }
         }
 
         private void cmbNaus_SelectedIndexChanged(object sender, EventArgs e)
@@ -100,6 +138,9 @@ namespace BlueprintsInfoDC
             lblInfo.Text = SpaceshipInfo[Idindex];
             lblSpaceshipName.Text = cmbNaus.Text;
 
+            //dgv_ship_data.Columns["Data"].Index;
+
+            #region ImagesLocations
             picBlueprints.ImageLocation = imagepath + SpaceshipBp[Idindex];
 
             picSpaceMain.ImageLocation = "";
@@ -108,6 +149,7 @@ namespace BlueprintsInfoDC
             picSpace3.ImageLocation = imagepath + TopView[Idindex];
             picSpace4.ImageLocation = imagepath + RearView[Idindex];
             picSpace5.ImageLocation = imagepath + View360[Idindex];
+            #endregion
         }
 
         private void picSpace1_Click(object sender, EventArgs e)

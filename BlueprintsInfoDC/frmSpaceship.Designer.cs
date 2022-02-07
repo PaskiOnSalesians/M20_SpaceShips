@@ -44,6 +44,9 @@ namespace BlueprintsInfoDC
             this.pnlMedia = new System.Windows.Forms.Panel();
             this.axWMPvideo = new AxWMPLib.AxWindowsMediaPlayer();
             this.pnlImage = new System.Windows.Forms.Panel();
+            this.dgv_ship_data = new System.Windows.Forms.DataGridView();
+            this.Data = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Value = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.picSpaceMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBlueprints)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpace1)).BeginInit();
@@ -54,6 +57,7 @@ namespace BlueprintsInfoDC
             this.pnlMedia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWMPvideo)).BeginInit();
             this.pnlImage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ship_data)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbNaus
@@ -215,12 +219,34 @@ namespace BlueprintsInfoDC
             this.pnlImage.Size = new System.Drawing.Size(300, 312);
             this.pnlImage.TabIndex = 13;
             // 
+            // dgv_ship_data
+            // 
+            this.dgv_ship_data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ship_data.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Data,
+            this.Value});
+            this.dgv_ship_data.Location = new System.Drawing.Point(324, 397);
+            this.dgv_ship_data.Name = "dgv_ship_data";
+            this.dgv_ship_data.Size = new System.Drawing.Size(300, 226);
+            this.dgv_ship_data.TabIndex = 14;
+            // 
+            // Data
+            // 
+            this.Data.HeaderText = "Data";
+            this.Data.Name = "Data";
+            // 
+            // Value
+            // 
+            this.Value.HeaderText = "Value";
+            this.Value.Name = "Value";
+            // 
             // frmSpaceship
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1424, 669);
+            this.Controls.Add(this.dgv_ship_data);
             this.Controls.Add(this.pnlMedia);
             this.Controls.Add(this.pnlImage);
             this.Controls.Add(this.lblSpaceshipName);
@@ -250,6 +276,7 @@ namespace BlueprintsInfoDC
             this.pnlMedia.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axWMPvideo)).EndInit();
             this.pnlImage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ship_data)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,5 +298,8 @@ namespace BlueprintsInfoDC
         private AxWMPLib.AxWindowsMediaPlayer axWMPvideo;
         private System.Windows.Forms.Panel pnlMedia;
         private System.Windows.Forms.Panel pnlImage;
+        private System.Windows.Forms.DataGridView dgv_ship_data;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Data;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Value;
     }
 }
