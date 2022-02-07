@@ -36,6 +36,7 @@ namespace BlueprintsInfoDC
 
         private void frmSpaceship_Load(object sender, EventArgs e)
         {
+            axWMPvideo.uiMode = "none";
             XElement blueprints = XElement.Load(resourcesPath + "\\info.xml");
 
             foreach (XElement n in blueprints.Descendants("idInfoDetail"))
@@ -143,6 +144,7 @@ namespace BlueprintsInfoDC
             picSpaceMain.ImageLocation = "";
 
             axWMPvideo.URL = path;
+            axWMPvideo.settings.setMode("loop", true);
             axWMPvideo.Visible = true;
             axWMPvideo.Ctlcontrols.play();
         }
