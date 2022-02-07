@@ -23,11 +23,12 @@ namespace BlueprintsInfoDC
         List<string> TextDetails = new List<string>();
         List<string> ImageDetails = new List<string>();
 
-        string ResourcesPath = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\StarKiller\\";
+        private static string resourcesPath = Application.StartupPath + "\\Resources";
+        string StarKillerPath = resourcesPath + "\\Starkiller\\";
 
         private void frmBlueprints_Load_1(object sender, EventArgs e)
         {
-            string XMLfilePath = "\\\\Mac\\Home\\Desktop\\GitHub\\M20-SpaceShips\\BlueprintsInfoDC\\Resources\\info.xml";
+            string XMLfilePath = resourcesPath + "\\info.xml";
 
             XElement blueprints = XElement.Load(XMLfilePath);
 
@@ -52,7 +53,7 @@ namespace BlueprintsInfoDC
             lblTitle.Text = DetailsTitles[0];
             lblText.Text = TextDetails[0];
             picBlueprints.Visible = true;
-            picBlueprints.Image = Image.FromFile(ResourcesPath + ImageDetails[0]);
+            picBlueprints.Image = Image.FromFile(StarKillerPath + ImageDetails[0]);
         }
 
         private void labelTransparent3_Click(object sender, EventArgs e)
@@ -60,7 +61,7 @@ namespace BlueprintsInfoDC
             lblTitle.Text = DetailsTitles[1];
             lblText.Text = TextDetails[1];
             picBlueprints.Visible = true;
-            picBlueprints.Image = Image.FromFile(ResourcesPath + ImageDetails[1]);
+            picBlueprints.Image = Image.FromFile(StarKillerPath + ImageDetails[1]);
         }
 
         private void labelTransparent2_Click(object sender, EventArgs e)
@@ -68,7 +69,7 @@ namespace BlueprintsInfoDC
             lblTitle.Text = DetailsTitles[2];
             lblText.Text = TextDetails[2];
             picBlueprints.Visible = true;
-            picBlueprints.Image = Image.FromFile(ResourcesPath + ImageDetails[2]);
+            picBlueprints.Image = Image.FromFile(StarKillerPath + ImageDetails[2]);
         }
     }
 }

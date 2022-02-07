@@ -42,8 +42,8 @@ namespace BlueprintsInfoDC
             this.picSpace5 = new System.Windows.Forms.PictureBox();
             this.lblSpaceshipName = new System.Windows.Forms.Label();
             this.pnlMedia = new System.Windows.Forms.Panel();
-            this.pnlImage = new System.Windows.Forms.Panel();
             this.axWMPvideo = new AxWMPLib.AxWindowsMediaPlayer();
+            this.pnlImage = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.picSpaceMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBlueprints)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpace1)).BeginInit();
@@ -52,8 +52,8 @@ namespace BlueprintsInfoDC
             ((System.ComponentModel.ISupportInitialize)(this.picSpace3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpace5)).BeginInit();
             this.pnlMedia.SuspendLayout();
-            this.pnlImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWMPvideo)).BeginInit();
+            this.pnlImage.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmbNaus
@@ -174,7 +174,7 @@ namespace BlueprintsInfoDC
             this.lblSpaceshipName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSpaceshipName.AutoSize = true;
             this.lblSpaceshipName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.lblSpaceshipName.Location = new System.Drawing.Point(1055, 543);
+            this.lblSpaceshipName.Location = new System.Drawing.Point(997, 542);
             this.lblSpaceshipName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSpaceshipName.Name = "lblSpaceshipName";
             this.lblSpaceshipName.Size = new System.Drawing.Size(0, 26);
@@ -193,17 +193,6 @@ namespace BlueprintsInfoDC
             this.pnlMedia.Size = new System.Drawing.Size(301, 313);
             this.pnlMedia.TabIndex = 12;
             // 
-            // pnlImage
-            // 
-            this.pnlImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlImage.BackColor = System.Drawing.Color.Transparent;
-            this.pnlImage.Controls.Add(this.picSpaceMain);
-            this.pnlImage.Location = new System.Drawing.Point(903, 86);
-            this.pnlImage.Margin = new System.Windows.Forms.Padding(2);
-            this.pnlImage.Name = "pnlImage";
-            this.pnlImage.Size = new System.Drawing.Size(300, 312);
-            this.pnlImage.TabIndex = 13;
-            // 
             // axWMPvideo
             // 
             this.axWMPvideo.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -214,6 +203,17 @@ namespace BlueprintsInfoDC
             this.axWMPvideo.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWMPvideo.OcxState")));
             this.axWMPvideo.Size = new System.Drawing.Size(299, 311);
             this.axWMPvideo.TabIndex = 11;
+            // 
+            // pnlImage
+            // 
+            this.pnlImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlImage.BackColor = System.Drawing.Color.Transparent;
+            this.pnlImage.Controls.Add(this.picSpaceMain);
+            this.pnlImage.Location = new System.Drawing.Point(903, 86);
+            this.pnlImage.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlImage.Name = "pnlImage";
+            this.pnlImage.Size = new System.Drawing.Size(300, 312);
+            this.pnlImage.TabIndex = 13;
             // 
             // frmSpaceship
             // 
@@ -248,8 +248,8 @@ namespace BlueprintsInfoDC
             ((System.ComponentModel.ISupportInitialize)(this.picSpace3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSpace5)).EndInit();
             this.pnlMedia.ResumeLayout(false);
-            this.pnlImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axWMPvideo)).EndInit();
+            this.pnlImage.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
